@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/counting-bits/
 
-public class Solution {
+public class CountingBits {
     public int[] countBits(int n) {
         int[] ans = new int[n+1];
         for (int i=1; i<=n; ++i) {

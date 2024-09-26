@@ -11,7 +11,7 @@
  * }
  */
 
-public class Solution {
+public class ReverseLinkedList {
     public ListNode reverseList(ListNode head) {
         ListNode prev = null;
         while (head != null) {

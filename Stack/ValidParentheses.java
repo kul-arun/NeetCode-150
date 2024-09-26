@@ -3,7 +3,7 @@
 import java.util.Map;
 import java.util.Stack;
 
-public class Solution {
+public class ValidParentheses {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
         Map<Character, Character> map = Map.ofEntries(

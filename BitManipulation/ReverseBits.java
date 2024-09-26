@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/reverse-bits/
 
-public class Solution {
+public class ReversBits {
     public int reverseBits(int n) {
         int ans = 0;
         for (int i=31; i>=0; --i) {

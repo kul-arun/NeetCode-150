@@ -2,7 +2,7 @@
 
 import java.util.HashSet;
 
-public class Solution {
+public class ContainsDuplicate {
     public boolean hasDuplicate(int[] nums) {
         HashSet<Integers> set = new HashSet<>();
         for (int n : nums) {
